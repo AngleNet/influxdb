@@ -16,7 +16,7 @@ import (
 
 // Client is a client for the boltDB data store.
 type Client struct {
-	Path string
+	Path string 							// DB location
 	db   *bolt.DB
 	log  *zap.Logger
 
